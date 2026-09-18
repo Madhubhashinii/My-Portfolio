@@ -60,7 +60,7 @@ export default function Contact() {
                  find me on
               </div>
               <div style={{ display:"flex", gap:"10px" }}>
-                {[["GH","https://github.com/Madhubhashinii"],["LI","https://linkedin.com"]].map(([lbl,href]) => (
+                {[["GH","https://github.com/Madhubhashinii"],["LI","www.linkedin.com/in/gayanthika-madhubhashini-250163438"]].map(([lbl,href]) => (
                   <a key={lbl} href={href} target="_blank" rel="noreferrer" className="social-btn">{lbl}</a>
                 ))}
               </div>
